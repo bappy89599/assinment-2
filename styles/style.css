@@ -83,7 +83,11 @@
 }
 
 .header-details-container {
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-title {
@@ -99,6 +103,7 @@
     text-align: center;
     color: #727272;
     margin-bottom: 32px;
+    width: 860px;
 }
 
 .btn-primary {
@@ -113,9 +118,7 @@
 .btn-1 {
     width: 180px;
     height: 64px;
-    display: flex;
     justify-content: center;
-    margin: 0 auto;
     align-items: center;
     margin-bottom: 30px;
 
@@ -424,4 +427,8 @@
 
 .my-expertise-container img {
     width: 80px;
+}
+
+.hide {
+    display: none;
 }
