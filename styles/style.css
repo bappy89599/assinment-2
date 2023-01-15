@@ -117,8 +117,6 @@
     width: 100%;
 }
 
-.feature-info {}
-
 .feature-info-title {
     color: #727272;
     font-size: 45px;
@@ -147,4 +145,79 @@
 
 .btn-2 {
     margin: 0;
+}
+
+/* feature blog section design */
+
+.feature-blog {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 180px;
+}
+
+.feature-blog-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    width: 468px;
+    height: 106px;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.feature-blog-description {
+    color: #727272;
+    font-weight: 400;
+    width: 550px;
+    height: 78px;
+}
+
+.feature-blog-cards {
+    margin-top: 30px;
+}
+
+.card {
+    width: 500px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    color: #131313;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    color: #727272;
+    font-weight: 400;
+    line-height: 20px;
+    width: 514px;
+    height: 78px;
+}
+
+.feature-blog-img img {
+    width: 550px;
+}
+
+.feature-blog-img .btn-3 {
+    display: block;
+    width: 260px;
+    height: 165px;
+    position: relative;
+    top: -70px;
+    left: -50px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.feature-blog-img .btn-3 span {
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 50px;
 }
