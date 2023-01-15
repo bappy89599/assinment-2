@@ -221,3 +221,53 @@
     font-weight: 500;
     padding-bottom: 50px;
 }
+
+/* Some Facts section design */
+
+.some-facts {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.some-facts-title {
+    color: #131313;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.some-facts-description {
+    color: #727272;
+    width: 542px;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+
+.some-facts-card-container {
+    display: flex;
+}
+
+.some-facts-card {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 220px;
+    height: 220px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.some-facts-card img {
+    margin-top: 50px;
+}
+
+.some-facts-card h2 {
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.some-facts-card p {
+    color: #727272;
+    font-size: 20px;
+    margin-top: 10px;
+}
