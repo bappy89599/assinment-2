@@ -293,7 +293,6 @@
 }
 
 .some-facts-card:hover {
-    /* box-shadow: rgba(213, 112, 5, 0.25) 0px 30px 60px -12px inset, rgba(213, 112, 5, 0.25) 0px 18px 36px -18px inset; */
     animation: moveToLeft 5s linear infinite;
 }
 
@@ -344,25 +343,6 @@
 
 .our-sponspor-img-container img {
     width: 165px;
-}
-
-/* footer section design */
-
-.footer {
-    margin: 0 auto;
-    width: 1160px;
-    height: 50px;
-    background: #FFF4E7;
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
-
-.footer p {
-    color: #424242;
-    font-weight: 400;
-    font-size: 20px;
-    text-align: center;
-    padding-top: 17px;
 }
 
 /* contact us section design */
@@ -431,4 +411,23 @@
 
 .hide {
     display: none;
+}
+
+/* footer section design */
+
+.footer {
+    margin: 0 auto;
+    width: 1160px;
+    height: 50px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
 }
