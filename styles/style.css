@@ -244,6 +244,7 @@
 
 .some-facts-card-container {
     display: flex;
+    margin-bottom: 180px;
 }
 
 .some-facts-card {
@@ -270,4 +271,55 @@
     color: #727272;
     font-size: 20px;
     margin-top: 10px;
+}
+
+/* Our Sponspors section design  */
+
+.our-sponspor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-sponspor-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.our-sponspor-description {
+    color: #727272;
+    width: 542px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.our-sponspor-img-container {
+    display: flex;
+    gap: 80px;
+    margin-bottom: 130px;
+}
+
+.our-sponspor-img-container img {
+    width: 165px;
+}
+
+/* footer section design */
+
+.footer {
+    margin: 0 auto;
+    width: 1160px;
+    height: 50px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
 }
